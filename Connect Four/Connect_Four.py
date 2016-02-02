@@ -1,4 +1,9 @@
-from tkinter import *
+try:
+    # for Python 3
+    from tkinter import *
+except ImportError:
+    # for Python 2
+    from Tkinter import *
 
 """Basic Connect four game, By Tadas Kivilius (nickname Drakoshi)"""
 
